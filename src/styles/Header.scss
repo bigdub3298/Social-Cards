@@ -1,0 +1,34 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  align-items: start;
+  padding-top: 0.5rem;
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+    margin-right: 0.25rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__username {
+    color: #777;
+  }
+
+  &__secondary-content {
+    justify-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    padding: 0.25rem;
+
+    &:hover {
+      background-color: #f4f4f4;
+      border-radius: 50%;
+    }
+  }
+}
