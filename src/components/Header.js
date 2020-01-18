@@ -1,6 +1,4 @@
 import React from "react";
-import faker from "faker";
-import Avatar from "./Avatar";
 import "../styles/Header.scss";
 
 export default function Header() {

@@ -1,5 +1,10 @@
 import React from "react";
+import TwitterCard from "./TwitterCard";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <TwitterCard />
+    </div>
+  );
 }
