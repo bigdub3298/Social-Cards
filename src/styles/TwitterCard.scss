@@ -5,14 +5,39 @@
 }
 .twitter-card {
   display: flex;
-  max-width: 500px;
-  margin: auto;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 1rem auto;
   padding: 1.5rem 0.5rem;
   border: 1px solid #e5e5e5;
+
+  &:hover {
+    background-color: #f7f7f7;
+  }
 
   &__header {
     display: grid;
     grid-template-columns: 60px auto;
     align-items: start;
+  }
+
+  &__body {
+    width: 90%;
+    align-self: flex-end;
+    position: relative;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    &-text,
+    &-image {
+      width: 90%;
+      margin: 0.5rem;
+    }
+
+    &-image {
+      border: 1px solid #e5e5e5;
+      border-radius: 1rem;
+    }
   }
 }
