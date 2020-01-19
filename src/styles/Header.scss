@@ -5,6 +5,7 @@
   padding-top: 0.5rem;
 
   &__link {
+    font-weight: 700;
     text-decoration: none;
     color: #000;
     margin-right: 0.25rem;
@@ -27,7 +28,7 @@
     padding: 0.25rem;
 
     &:hover {
-      background-color: #f4f4f4;
+      background-color: #eee;
       border-radius: 50%;
     }
   }
